@@ -1,0 +1,10 @@
+[API]
+ListenAddress = "127.0.0.1"
+ListenPort = "9000"
+
+[DB]
+Database = "first_api_go"
+User = "first_api_go"
+Password = "first_api_go"
+Host = "localhost"
+Port = "5433"

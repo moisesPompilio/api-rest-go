@@ -1,0 +1,11 @@
+version: '3'
+services:
+  database:
+    container_name: first_api_go
+    image: postgres
+    environment:
+      POSTGRES_DB: first_api_go
+      POSTGRES_USER: first_api_go
+      POSTGRES_PASSWORD: first_api_go
+    ports:
+    - 5433:5432
