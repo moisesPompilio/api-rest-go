@@ -23,6 +23,8 @@ func main() {
 	r.Get("/", handlers.List)
 	r.Get("/{id}", handlers.Get)
 
+	fmt.Printf("Api rodando na porta %s\n", configs.GetServerPort())
+
 	http.ListenAndServe(fmt.Sprintf(":%s", configs.GetServerPort()), r)
 
 }
